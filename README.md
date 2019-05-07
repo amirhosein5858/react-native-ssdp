@@ -16,6 +16,16 @@ Unless React Native Version is > 0.29 use rnpm else use react-native link.
 npm install react-native-ssdp
 rnpm link
 ```
+delete `.git` from `react-native-udp` if EXIST and then install `react-native-network-info`
+```javascript
+npm install react-native-network-info --save
+react-native link react-native-network-info
+```
+
+install Buffer 
+```javascript
+npm install buffer
+```
 
 Make sure you set `Buffer` as global in `react-native-udp`'s UdpSockets.js (noted filename end with letter s)
 
